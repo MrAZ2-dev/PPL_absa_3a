@@ -4,9 +4,9 @@ require_once 'validatornama.php';
 
 try {
     validateName("Absa Zeta Zetira");
-    echo "PASS: Nama 'John' diterima\n";
+    echo "PASS: Nama 'Absa Zeta Zetira' diterima\n";
 } catch (InvalidArgumentException $e) {
-    echo "FAIL: Nama 'John' tidak diterima. Error: " . $e->getMessage() . "\n";
+    echo "FAIL: Nama 'Absa Zeta Zetira' tidak diterima. Error: " . $e->getMessage() . "\n";
 }
 
 try {
